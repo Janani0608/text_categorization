@@ -29,17 +29,22 @@ You can modify the dataset path in the main.py or hyperparameter_tuning.py scrip
    cd text_categorization
 
 2. **Setup a virtual environment:**
+    ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 3. **Install Dependencies:**
+    ```bash
     pip install -r requirements.txt
 
 4. **Training the model:**
+   ```bash
    python -m scripts.main
 
 5. **Hyperparameter tuning:**
+   ```bash
    python hyperparameter_tuning.py
 
-6. **Evaluating the model:**
+6. **Evaluating the model:**  
+
    After training, the script will generate a confusion matrix and a classification report, which will be saved as confusion_matrix.png and printed to the terminal.
