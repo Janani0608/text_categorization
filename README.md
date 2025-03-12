@@ -13,7 +13,7 @@ Key features of the project:
 
 ## Dataset
 
-The dataset used for this project is medical text data, specifically focusing on text categorization for medical specialties. You can place your CSV dataset in the data/raw/ directory. The data should have at least three columns:
+The dataset used for this project is medical text data (https://www.kaggle.com/code/ritheshsreenivasan/clinical-text-classification/input), specifically focusing on text categorization for medical specialties. You can place your CSV dataset in the data/raw/ directory. The data should have at least three columns:
 
 description: The medical text.
 transcription: The transcribed medical data.
