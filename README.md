@@ -21,21 +21,25 @@ medical_specialty: The category label (e.g., cardiology, oncology, etc.).
 You can modify the dataset path in the main.py or hyperparameter_tuning.py scripts as needed.
 
 
-## Installation
+## Installation and setup
 
-1. Clone the repository:
+1. **Clone the repository**
    ```bash
    git clone https://github.com/Janani0608/text_categorization.git
    cd text_categorization
 
-2. Install the required dependencies
-   pip install -r requirements.txt
+2. **Setup a virtual environment:**
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-3. Training the model
+3. **Install Dependencies:**
+    pip install -r requirements.txt
+
+4. **Training the model:**
    python -m scripts.main
 
-4. Hyperparameter tuning
+5. **Hyperparameter tuning:**
    python hyperparameter_tuning.py
 
-5. Evaluating the model
+6. **Evaluating the model:**
    After training, the script will generate a confusion matrix and a classification report, which will be saved as confusion_matrix.png and printed to the terminal.
