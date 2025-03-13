@@ -30,6 +30,7 @@ def train(model, train_loader, val_loader, criterion, optimizer, scheduler, num_
             loss.backward()
 
             optimizer.step()
+            scheduler.step()
 
             running_loss += loss.item()
             _, preds = torch.max(outputs, dim = 1)
